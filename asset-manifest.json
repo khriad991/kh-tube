@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KH-Tube.git/static/css/main.073c9b0a.css",
+    "main.js": "/KH-Tube.git/static/js/main.4be71ec5.js",
+    "index.html": "/KH-Tube.git/index.html",
+    "main.073c9b0a.css.map": "/KH-Tube.git/static/css/main.073c9b0a.css.map",
+    "main.4be71ec5.js.map": "/KH-Tube.git/static/js/main.4be71ec5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.4be71ec5.js"
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kh-Tube.git/static/css/main.e6c13ad2.css",
-    "main.js": "/kh-Tube.git/static/js/main.84fbe47a.js",
-    "index.html": "/kh-Tube.git/index.html",
-    "main.e6c13ad2.css.map": "/kh-Tube.git/static/css/main.e6c13ad2.css.map",
-    "main.84fbe47a.js.map": "/kh-Tube.git/static/js/main.84fbe47a.js.map"
+    "main.css": "/kh-tube.git/static/css/main.7fbe5db0.css",
+    "main.js": "/kh-tube.git/static/js/main.d9c1a7f8.js",
+    "index.html": "/kh-tube.git/index.html",
+    "main.7fbe5db0.css.map": "/kh-tube.git/static/css/main.7fbe5db0.css.map",
+    "main.d9c1a7f8.js.map": "/kh-tube.git/static/js/main.d9c1a7f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.84fbe47a.js"
+    "static/css/main.7fbe5db0.css",
+    "static/js/main.d9c1a7f8.js"
   ]
 }

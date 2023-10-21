@@ -1,15 +1,20 @@
-import './App.css';
+import React from 'react';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {Box} from "@mui/material";
+import {Navbar,Feed,VideoDetail, ChannelDetail, SearchTerm, } from "./componects";
 
-function App() {
-  return (
-    <div className="App">
-     <div>
-         <h1>this is From App.js file</h1>
-         <strong>This is only for dem test </strong><br/><br/>
-         <span>Author : Kamrul Hasan</span>
-     </div>
-    </div>
-  );
-}
+const App = () => (
+       <BrowserRouter>
+           <Box sx={{backgroundColor:"#000"}}>
+               <Navbar/>
+               <Routes>
+                   <Route path='/' exect element={<Feed/>} />
+                   <Route path='/video/:id' element={<VideoDetail/>}/>
+                   <Route path='/channel/:id' element={<ChannelDetail/>} />
+                   <Route path="/search/:SearchTerm" element={<SearchTerm/>}/>
+               </Routes>
+           </Box>
+       </BrowserRouter>
+    );
 
 export default App;
